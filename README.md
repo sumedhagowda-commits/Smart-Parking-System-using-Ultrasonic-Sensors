@@ -261,4 +261,4 @@ Smart parking systems are used in shopping malls, airports, hospitals, office bu
 
 ## Author
 
-Student Embedded Systems Project
+Sumedha N
