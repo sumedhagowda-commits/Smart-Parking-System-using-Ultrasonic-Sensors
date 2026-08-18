@@ -1,0 +1,3 @@
+# No external packages are required.
+# The Python simulation uses tkinter, dataclasses, unittest, and other standard-library modules.
+

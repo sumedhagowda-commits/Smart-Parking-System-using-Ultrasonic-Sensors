@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+.idea/
+.vscode/settings.json
+outputs/*
+!outputs/.gitkeep
+screenshots/*
+!screenshots/.gitkeep
+

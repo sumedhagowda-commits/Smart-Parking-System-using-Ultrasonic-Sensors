@@ -1,0 +1,27 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Smart Parking GUI Simulation",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/simulation/smart_parking_simulation.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Smart Parking Console Demo",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/simulation/console_demo.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Smart Parking Unit Tests",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "unittest",
+      "args": ["discover", "-s", "test_cases"],
+      "console": "integratedTerminal"
+    }
+  ]
+}

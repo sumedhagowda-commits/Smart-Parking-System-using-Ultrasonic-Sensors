@@ -1,0 +1,9 @@
+scenario,slot1_cm,slot2_cm,slot3_cm,slot4_cm,expected_available,expected_alert
+all_slots_free,50,50,50,50,4,OFF
+slot1_occupied,7,50,50,50,3,OFF
+two_slots_occupied,7,9,50,50,2,OFF
+three_slots_occupied,7,9,11,50,1,OFF
+parking_full,7,9,10,12,0,ON
+one_vehicle_leaves,7,9,50,12,1,OFF
+near_threshold_mixed,14,16,15,50,3,OFF
+
